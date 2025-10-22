@@ -231,7 +231,7 @@ $env:GLOSSMOD_API_KEY = "your-api-key"
 ```toml
 [project]
 name = "glossmod-mcp"
-version = "0.1.0"
+version = "1.0.0"
 description = "MCP 服务器 - 3DM Mod API 集成"
 requires-python = ">=3.11"
 dependencies = [

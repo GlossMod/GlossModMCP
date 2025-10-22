@@ -390,3 +390,10 @@ def list_trending_mods(time_range: str = "week", game_id: Optional[int] = None) 
     return prompt
 
 
+def main():
+    """MCP 服务器入口点"""
+    mcp.run()
+
+
+if __name__ == "__main__":
+    main()
