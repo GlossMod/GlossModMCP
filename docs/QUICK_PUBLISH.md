@@ -30,7 +30,7 @@ twine upload dist/*
 
 - **PyPI**: https://pypi.org/
 - **MCP Registry**: https://modelcontextprotocol.io/servers
-- **GitHub**: https://github.com/GlossMod/GlossModMCP
+- **GitHub**: https://github.com/GlossMod/gloss-mod-mcp
 
 ---
 

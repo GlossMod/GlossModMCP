@@ -25,9 +25,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/GlossMod/GlossModMCP"
-Repository = "https://github.com/GlossMod/GlossModMCP.git"
-Documentation = "https://github.com/GlossMod/GlossModMCP/docs"
+Homepage = "https://github.com/GlossMod/gloss-mod-mcp"
+Repository = "https://github.com/GlossMod/gloss-mod-mcp.git"
+Documentation = "https://github.com/GlossMod/gloss-mod-mcp/docs"
 
 [project.scripts]
 glossmod-mcp = "glossmod_mcp.server:main"

@@ -207,7 +207,7 @@ python -c "import glossmod_mcp; print(glossmod_mcp.__version__)"
 
 ### 验证 GitHub Release
 
-- 访问 https://github.com/GlossMod/GlossModMCP/releases
+- 访问 https://github.com/GlossMod/gloss-mod-mcp/releases
 - 看到 v0.1.0 Release
 
 ### 验证 MCP Registry
@@ -240,13 +240,13 @@ git tag v0.1.1 && git push origin v0.1.1
 
 ## 📚 关键链接
 
-| 链接                                             | 说明            |
-| ------------------------------------------------ | --------------- |
-| https://pypi.org/                                | PyPI 官网       |
-| https://pypi.org/project/glossmod-mcp/           | 发布后的包页面  |
-| https://modelcontextprotocol.io/servers          | MCP Registry    |
-| https://github.com/GlossMod/GlossModMCP          | GitHub 项目     |
-| https://github.com/GlossMod/GlossModMCP/releases | GitHub Releases |
+| 链接                                               | 说明            |
+| -------------------------------------------------- | --------------- |
+| https://pypi.org/                                  | PyPI 官网       |
+| https://pypi.org/project/glossmod-mcp/             | 发布后的包页面  |
+| https://modelcontextprotocol.io/servers            | MCP Registry    |
+| https://github.com/GlossMod/gloss-mod-mcp          | GitHub 项目     |
+| https://github.com/GlossMod/gloss-mod-mcp/releases | GitHub Releases |
 
 ---
 

@@ -4,9 +4,9 @@ Version: 1.0.0
 Summary: MCP 服务器 - 3DM Mod API 集成
 Author-email: 小莫 <xiaomo1433675239@outlook.com>
 License: MIT
-Project-URL: Homepage, https://github.com/GlossMod/GlossModMCP
-Project-URL: Repository, https://github.com/GlossMod/GlossModMCP.git
-Project-URL: Documentation, https://github.com/GlossMod/GlossModMCP/docs
+Project-URL: Homepage, https://github.com/GlossMod/gloss-mod-mcp
+Project-URL: Repository, https://github.com/GlossMod/gloss-mod-mcp.git
+Project-URL: Documentation, https://github.com/GlossMod/gloss-mod-mcp/docs
 Keywords: mcp,3dm,mod,api
 Classifier: Development Status :: 4 - Beta
 Classifier: Programming Language :: Python :: 3.11

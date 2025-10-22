@@ -279,12 +279,12 @@ pip install glossmod-mcp
 
 ## 📞 支持资源
 
-| 资源         | 链接                                    |
-| ------------ | --------------------------------------- |
-| PyPI         | https://pypi.org                        |
-| MCP Registry | https://modelcontextprotocol.io/servers |
-| GitHub 项目  | https://github.com/GlossMod/GlossModMCP |
-| 发布指南     | `docs/PUBLISHING.md`                    |
+| 资源         | 链接                                      |
+| ------------ | ----------------------------------------- |
+| PyPI         | https://pypi.org                          |
+| MCP Registry | https://modelcontextprotocol.io/servers   |
+| GitHub 项目  | https://github.com/GlossMod/gloss-mod-mcp |
+| 发布指南     | `docs/PUBLISHING.md`                      |
 
 ---
 

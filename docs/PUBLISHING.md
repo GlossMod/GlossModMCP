@@ -128,7 +128,7 @@ pip install glossmod-mcp
 ```
 
 ## Usage
-See documentation at: https://github.com/GlossMod/GlossModMCP
+See documentation at: https://github.com/GlossMod/gloss-mod-mcp
 ```
 
 5. 上传分发文件（可选）：
@@ -150,7 +150,7 @@ MCP Registry 是发现 MCP 服务器的官方地方。
 Server Name: GlossModMCP
 Description: MCP server for accessing 3DM Mod API with game and mod information
 
-Repository URL: https://github.com/GlossMod/GlossModMCP
+Repository URL: https://github.com/GlossMod/gloss-mod-mcp
 Installation: pip install glossmod-mcp
 
 Command:
@@ -160,7 +160,7 @@ Categories:
 - API Integration
 - Game Development
 
-Documentation: https://github.com/GlossMod/GlossModMCP/blob/main/README.md
+Documentation: https://github.com/GlossMod/gloss-mod-mcp/blob/main/README.md
 ```
 
 ---

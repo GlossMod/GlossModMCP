@@ -124,7 +124,7 @@ def create_github_release(version: str) -> bool:
     ):
         return False
     
-    print(f"\n💡 现在访问 GitHub 创建 Release: https://github.com/GlossMod/GlossModMCP/releases/new?tag=v{version}")
+    print(f"\n💡 现在访问 GitHub 创建 Release: https://github.com/GlossMod/gloss-mod-mcp/releases/new?tag=v{version}")
     return True
 
 def main():
