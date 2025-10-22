@@ -209,7 +209,7 @@ def main():
         print("\n✅ PyPI 上传成功！")
         print("\n现在可以创建 GitHub Release...")
         
-        version = "1.1.0"  # TODO: 从 pyproject.toml 读取
+        version = "1.2.0"  # TODO: 从 pyproject.toml 读取
         if create_github_release(version):
             print("\n✅ 完整发布流程完成！")
             return 0
