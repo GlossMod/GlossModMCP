@@ -101,6 +101,10 @@ async def get_games(page: int = 1, page_size: int = 20, search: Optional[str] = 
     - 搜索 "Skyrim" 游戏 -> 获取 id = 123
     - 搜索 Skyrim 的 Mod: get_mods(game_id=123)
     - 或同时查询多个游戏: get_mods(game_id=[123, 456, 789])
+    
+    游戏详细网址:  
+    https://mod.3dmgame.com/<game_path>
+    其中 game_path 来自返回结果中的 "game_path" 字段
     """
     params: dict = {
         "page": page,
@@ -135,6 +139,10 @@ async def get_game_detail(game_id: int) -> dict:
     2. get_game_detail(game_id=该id) -> 获取详细信息
     
     包括 Mod 统计数据。
+    
+    游戏详细网址: 
+    https://mod.3dmgame.com/<game_path>
+    其中 game_path 来自此函数返回结果中的 "game_path" 字段
     """
     headers = {}
     if API_KEY:
@@ -176,6 +184,9 @@ async def get_mods(page: int = 1, page_size: int = 20, game_id: Optional[int | l
       * 5 = 按更新时间排序
     - time: 时间筛选 (1=今天, 2=最近一周, 3=最近一个月, 4=最近三个月)
     
+    Mod详细网址:
+    https://mod.3dmgame.com/mod/<mod_id>
+    其中 mod_id 来自返回结果中的 "id" 字段
     """
     params: dict = {
         "page": page,
@@ -206,6 +217,9 @@ async def get_mod_detail(mod_id: int) -> dict:
     获取指定 Mod 的详细信息。
     
     包括用户信息和游戏信息。
+    
+    Mod详细网址:
+    https://mod.3dmgame.com/mod/<mod_id>
     """
     headers = {}
     if API_KEY:

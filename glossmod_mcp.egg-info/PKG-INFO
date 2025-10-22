@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: glossmod-mcp
-Version: 1.0.0
+Version: 1.1.0
 Summary: MCP 服务器 - 3DM Mod API 集成
 Author-email: 小莫 <xiaomo1433675239@outlook.com>
 License: MIT
@@ -54,21 +54,20 @@ Dynamic: license-file
 - Python 3.11+
 - [uv](https://github.com/astral-sh/uv) 
 
+### 安装
+```bash
+pip install glossmod-mcp
+```
+
 ### 配置
 
 ```json
-"GlossModMCP": {
-    "command": "uv",
-    "args": [
-        "run",
-        "--with",
-        "mcp[cli]",
-        "mcp",
-        "run",
-        "server.py"
-    ],
+"glossmod-mcp": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": ["glossmod-mcp"],
     "env": {
-        "GLOSSMOD_API_KEY": "<your-api-key>"
+        "GLOSSMOD_API_KEY": "<YOUR_API_KEY_HERE>"
     }
 }
 
