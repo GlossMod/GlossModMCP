@@ -21,6 +21,7 @@
 ### 前置条件
 - Python 3.11+
 - [uv](https://github.com/astral-sh/uv) 
+- [3DM Mod API 密钥](https://mod.3dmgame.com/Workshop/Api)
 
 ### 安装
 ```bash
